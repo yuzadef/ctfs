@@ -1,0 +1,24 @@
+Web Application Testing Checklists
+
+Enumeration phase
+- Enumerate directories
+- Enumerate subdomains
+- Enumerate parameters
+- Enumerate file paths
+- Analyse both HTTP & HTTPS response
+- Analyse TLS/SSL certificates
+- Take a look at source page
+- Intercept each requests and analyse the request
+- Send HTTP requests in other different HTTP methods and see the response
+- Tamper with each HTTP headers and see the response
+- Look for public exploits for all web service versions you can find
+
+Exploitation phase
+- 
+
+
+
+
+Common exploits
+- ImageMagick (CVE-2016-3714)
+	* is a package commonly used by web services to process images. The CVE can lead to Remote Code Execution is it process a user submitted image that contains payload
